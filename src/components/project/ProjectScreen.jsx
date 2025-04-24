@@ -9,7 +9,7 @@ function project() {
           <p className='text-2xl pt-8'>Kendi projelerimi ve yaptığım çalışmaları inceleyebilirsiniz.</p>
         </div>
         <div className="">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 px-36">
             <div className="bg-gray-200 p-4 rounded-lg shadow-md text-center">
               <a href='https://www.yorumperisi.com'><h2 className="text-xl font-bold inline-block relative group">Yorum Perisi
                 <span className='block h-[2px] w-[60%] bg-blue-600 mx-auto mt-1 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-center'></span></h2></a>
