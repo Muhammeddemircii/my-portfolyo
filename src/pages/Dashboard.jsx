@@ -7,10 +7,11 @@ import ContactScreen from '../components/contact/ContactScreen'
 import FooterScreen from '../components/footer/FooterScreen'
 
 function Dashboard() {
+
   return (
     <div>
-      <Navbar />
-      <HomeScreen />
+      <Navbar/>
+      <HomeScreen  />
       <AboutScreen /> 
       <ProjectScreen />
       <ContactScreen />
