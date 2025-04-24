@@ -4,7 +4,7 @@ import React from 'react'
 function HomeScreen() {
     return (
         <div>
-            <div id='dashboard' className="flex items-center justify-around">
+            <div id='dashboard' className="flex items-center justify-around h-screen">
 
                 <div className="flex flex-col">
                     <h1 className="text-6xl font-bold">Muhammed</h1>
