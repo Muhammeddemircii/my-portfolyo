@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../components/navbar/Navbar'
+import HomeScreen from '../components/home/HomeScreen'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Navbar />
+      <HomeScreen />
+    </div>
+
   )
 }
 

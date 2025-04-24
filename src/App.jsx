@@ -1,3 +1,4 @@
+import React from 'react'
 import { BrowserRouter, Route,  Routes } from 'react-router-dom'
 import './App.css'
 import Dashboard from './pages/Dashboard'
@@ -7,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
 
         </Routes>
       </BrowserRouter>
